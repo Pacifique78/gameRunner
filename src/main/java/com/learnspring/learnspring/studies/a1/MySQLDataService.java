@@ -1,9 +1,9 @@
 package com.learnspring.learnspring.studies.a1;
 
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 @Qualifier("mySQLDataService")
 class MySQLDataService implements DataService {
 
